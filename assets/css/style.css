@@ -859,7 +859,7 @@ html{
     }
     /*nav */
     .header .navbar-list{
-        display: flex;
+        display: flex !important;
         width: auto;
     }
 
