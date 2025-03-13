@@ -12,9 +12,14 @@
 <body>
     <div class="header">
         <div class="container">
-            <div class="navbar">
+            <div class="navbar flex justify-between items-center px-5 flex-wrap">
                 <div class="navbar__logo">
                     <a href="#">Start Bootstrap</a>
+                </div>
+                <div class="navbar-toggler py-4">
+                    <button class="navbar-toggler-btn">
+                        <i class="fa-solid fa-bars"></i>
+                    </button>
                 </div>
                 <ul class="navbar-list">
                     <li><a href="#">Home</a></li>
@@ -26,26 +31,28 @@
         </div>
     </div>
     <div class="content">
-        <div class="section-1">
+        <div class="section-1 pb-5">
             <div class="container">
-                <div class="hero-section row">
-                    <div class="col-5">
-                        <div class="slogan gradient-background">
-                            Design · Development · Marketing
-                        </div>
-                        <div class="sub-title">
-                            I can help your business to
-                        </div>
-                        <div class="title gradient-text">
-                            Get online and grow fast
-                        </div>
-                        <div class="cta">
-                            <button class="btn btn-primary">Resume</button>
-                            <button class="btn btn-outline">Projects</button>
+                <div class="hero-section row p-5 items-center justify-center gx-5">
+                    <div class="col-xl-5">
+                        <div class="flex flex-col text-center text-xl-start">
+                            <div class="">
+                                <div class="d-inline-block mb-4 text-uppercase slogan text-white gradient-background">Design · Development · Marketing</div>
+                            </div>
+                            <div class="sub-title">
+                                I can help your business to
+                            </div>
+                            <div class="title mb-5 gradient-text">
+                                Get online and grow fast
+                            </div>
+                            <div class="cta">
+                                <button class="btn btn-primary mb-3">Resume</button>
+                                <button class="btn btn-outline">Projects</button>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-7">
-                        <div class="profile">
+                    <div class="col-xl-7">
+                        <div class="profile flex justify-center mt-5 mt-lg-0">
                             <div class="profile-img gradient-background">
                                 <img src="https://startbootstrap.github.io/startbootstrap-personal/assets/profile.png"
                                     alt="">
@@ -331,17 +338,17 @@
                 </div>
             </div>
         </div>
-        <div class="section-2">
-            <div class="container">
-                <div class="about-section">
-                    <div class="wrapper col-8">
-                        <h2 class="about-title gradient-text">About Me</h2>
-                        <p class="about-text">My name is Start Bootstrap and I help brands grow.</p>
-                        <p class="about-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit dolorum itaque qui unde quisquam consequatur autem. Eveniet quasi nobis aliquid cumque officiis sed rem iure ipsa! Praesentium ratione atque dolorem?</p>
+        <div class="section-2 p-5">
+            <div class="container px-5">
+                <div class="about-section my-5 flex justify-center">
+                    <div class="wrapper col-xl-8 flex flex-col items-center">
+                        <h2 class="about-title mb-2 gradient-text">About Me</h2>
+                        <p class="about-text mb-4 text-center">My name is Start Bootstrap and I help brands grow.</p>
+                        <p class="about-desc mb-3 text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit dolorum itaque qui unde quisquam consequatur autem. Eveniet quasi nobis aliquid cumque officiis sed rem iure ipsa! Praesentium ratione atque dolorem?</p>
                         <div class="about-icon-links">
-                            <i class="gradient-text fa-brands fa-twitter"></i>
-                            <i class="gradient-text fa-brands fa-linkedin"></i>
-                            <i class="gradient-text fa-brands fa-github"></i>
+                            <a href="#"><i class="mx-2 gradient-text fa-brands fa-twitter"></i></a>
+                            <a href="#"><i class="mx-2 gradient-text fa-brands fa-linkedin"></i></a>
+                            <a href="#"><i class="mx-2 gradient-text fa-brands fa-github"></i></a>
                         </div>
                     </div>
                 </div>
@@ -350,18 +357,19 @@
     </div>
     <div class="footer">
         <div class="container">
-            <div class="footer-wrapper">
+            <div class="footer-wrapper flex justify-between items-center py-4 px-5">
                 <div class="coppywright">Copyright © Your Website 2023</div>
-                <div class="footer-items-list">
-                    <a href="#">Privacy</a>
-                    <div class="gap">·</div>
-                    <a href="#">Terms</a>
-                    <div class="gap">·</div>
-                    <a href="#">Contact</a>
+                <div class="footer-items-list flex">
+                    <a class="text-underline" href="#">Privacy</a>
+                    <div class="mx-1">·</div>
+                    <a class="text-underline" href="#">Terms</a>
+                    <div class="mx-1">·</div>
+                    <a class="text-underline" href="#">Contact</a>
                 </div>
             </div>
         </div>
     </div>
+    <script src ='assets/js/main.js'></script>
 </body>
 
 </html>
