@@ -19,10 +19,16 @@
     background-clip: text;
 }
 
+.section-title{
+    font-weight: 700;
+    font-size: calc(1.425rem + 2.1vw);
+}
+
 html{
     font-family: "Plus Jakarta Sans", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 700;
+    font-weight: 400;
+
     font-style: normal;
 }
 
@@ -79,7 +85,7 @@ html{
 }
 
 .section-1 .sub-title{
-    font-size: 28px;
+    font-size: calc(1.3rem + 0.6vw);
     font-weight: 200;
     color: rgb(108, 117, 125);
 }
@@ -153,10 +159,6 @@ html{
     background-color: rgb(248, 249, 250);
 }
 
-.section-2 .about-title{
-    font-weight: 700;
-    font-size: calc(1.425rem + 2.1vw);
-}
 
 .section-2 .about-text{
     font-size: 1.25rem;
@@ -176,6 +178,62 @@ html{
 }
 
 /* end about */
+/* begin resume */
+.resume{
+    background-color: rgb(248, 249, 250);
+}
+
+.resume .experience-title-wrapper span{
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.resume .experience-item{
+    background-color: #fff;
+}
+
+.resume .item-box{
+    background-color: rgb(248, 249, 250);
+}
+
+.resume .item-box{
+    font-size: 0.875rem;
+    line-height: 1.3rem;
+}
+
+.resume .date{
+    font-size: 1rem;
+}
+
+.resume .experience-item .item-desc{
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+.resume .education-item{
+    background-color: #fff;
+}
+
+.resume .professional-icon-wrapper{
+    width: 3rem;
+    height: 3rem;
+}
+
+.resume .professional-icon-wrapper i{
+    font-size: 1.5rem;
+}
+
+.resume .language-icon-wrapper{
+    width: 3rem;
+    height: 3rem;
+}
+
+.resume .language-icon-wrapper span{
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+
 /* begin footer */
 
 .footer-wrapper{
@@ -248,6 +306,11 @@ html{
 
 /* lg */
 @media (min-width: 992px){
+
+    .section-1 .sub-title{
+        font-size: 28px;
+    }
+    
     .section-1 .profile-img{
         width: 40vw;
         height: 40vw;
@@ -291,6 +354,9 @@ html{
 
 /* xl */
 @media (min-width: 1400px){
+    .section-title{
+        font-size: 3rem;
+    }
     .section-1 .profile-img{
         width: 35vw;
         height: 35vw;
@@ -318,9 +384,6 @@ html{
         right: -2vw;
     }
     /*  */
-    .section-2 .about-title{
-        font-size: 3rem;
-    }
     .section-1 .title{
         font-style: 4rem;
     }
