@@ -630,6 +630,9 @@ h3{
 }
 /* md */
 @media (min-width: 768px){
+    .w-md-auto{
+        width: auto;
+    }
 
     .row-cols-md-1.row > *{
         width: 100%;
