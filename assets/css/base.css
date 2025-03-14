@@ -503,7 +503,11 @@ h3{
     align-items: center;
 }
 /* text config */
-.fstt-italic{
+.text-primary{
+    color: rgb(30, 48, 243);
+}
+
+.fst-italic{
     font-style:italic;
 }
 
