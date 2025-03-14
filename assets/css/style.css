@@ -232,6 +232,10 @@ html{
     font-size: 1.2rem;
     color: #fff;
 }
+/* projects */
+.projects .section-1{
+    background-color: rgb(248, 249, 250);
+}
 
 
 /* begin footer */
