@@ -12,6 +12,9 @@
 .overflow-hidden{
     overflow: hidden;
 }
+h1{
+    font-size: calc(1.375rem + 1.5vw);
+}
 
 h2{
     font-size: calc(1.325rem + 0.9vw);
@@ -119,6 +122,10 @@ h3{
 }
 
 /* button config */
+.btn.disabled{
+    opacity: 0.65;
+}
+
 .btn{
     cursor: pointer;
     padding: 1rem 3rem;
@@ -536,6 +543,10 @@ h3{
     line-height: 1.2;
 }
 
+.lead{
+    font-size: 1.25rem;
+}
+
 .fs-6{
     font-size: 1rem;
 }
@@ -680,6 +691,32 @@ h3{
         width: 8.3333%;
     }
     /* spacing */
+
+    .px-md-5{
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+    
+    .px-md-4{
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+    
+    .px-md-3{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    
+    .px-md-2{
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+    
+    .px-md-1{
+        padding-left: 0.25rem;
+        padding-right: 0.25rem;
+    }
+    
     .mt-md-0{
         margin-top: 0;
     }
@@ -724,12 +761,19 @@ h3{
     .flex-md-row-reverse{
         flex-direction: row-reverse;
     }
+
+    .flex-md-row{
+        flex-direction: row;
+    }
 }
 
 /* lg */
 @media (min-width: 992px){
     .container{
         max-width: 960px;
+    }
+    h1{
+        font-size: 2.5rem;
     }
 
     h2{
